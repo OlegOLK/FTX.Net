@@ -12,7 +12,7 @@ namespace FTX.Net.Converters
         protected override List<KeyValuePair<AirdropStatus, string>> Mapping => new List<KeyValuePair<AirdropStatus, string>>
         {
             new KeyValuePair<AirdropStatus, string>(AirdropStatus.Pending, "pending"),
-            new KeyValuePair<AirdropStatus, string>(AirdropStatus.Confirmed, "confirmed"),
+            new KeyValuePair<AirdropStatus, string>(AirdropStatus.Confirmed, "complete"),
         };
     }
 }
